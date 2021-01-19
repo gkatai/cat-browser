@@ -1,0 +1,19 @@
+{
+  "name": "cat-browser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkatai/cat-browser.git"
+  },
+  "author": "gkatai",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gkatai/cat-browser/issues"
+  },
+  "homepage": "https://github.com/gkatai/cat-browser#readme"
+}
