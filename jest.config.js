@@ -3,7 +3,7 @@
 const path = require("path");
 
 module.exports = {
-  testEnvironment: "node",
+  testEnvironment: "jsdom",
   moduleDirectories: [
     "node_modules",
     path.join(__dirname, "src"),
@@ -20,10 +20,10 @@ module.exports = {
   ],
   coverageThreshold: {
     global: {
-      statements: 10,
-      branches: 10,
-      functions: 10,
-      lines: 10,
+      statements: 80,
+      branches: 80,
+      functions: 80,
+      lines: 80,
     },
   },
 };
