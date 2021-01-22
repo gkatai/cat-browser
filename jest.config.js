@@ -16,7 +16,7 @@ module.exports = {
   collectCoverageFrom: [
     "**/src/**/*.{js,jsx}",
     "!src/index.jsx",
-    "!src/store.js",
+    "!src/app/store.js",
   ],
   coverageThreshold: {
     global: {
