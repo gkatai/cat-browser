@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+
+import { getImagesMetadata } from "./grid-slice";
 
 const Grid = () => {
+  const dispatch = useDispatch();
   useEffect(() => {
-    fetch("//api.thecatapi.com/v1/images/search?limit=5")
-      .then((response) => response.json())
-      .then((data) => console.log(data));
+    dispatch(getImagesMetadata());
   }, []);
 
   return <h1>Grid</h1>;

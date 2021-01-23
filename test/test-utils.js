@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import { render as rtlRender } from "@testing-library/react";
 import "whatwg-fetch";
 
-import rootReducer from "../src/app/rootReducer";
+import rootReducer from "../src/app/root-reducer";
 
 function render(
   ui,
