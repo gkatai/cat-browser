@@ -26,4 +26,5 @@ module.exports = {
       lines: 80,
     },
   },
+  setupFilesAfterEnv: ["./test/setup-env.js"],
 };

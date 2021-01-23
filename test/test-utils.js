@@ -3,6 +3,7 @@ import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
 import PropTypes from "prop-types";
 import { render as rtlRender } from "@testing-library/react";
+import "whatwg-fetch";
 
 import rootReducer from "../src/app/rootReducer";
 
