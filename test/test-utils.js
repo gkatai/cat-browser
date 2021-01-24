@@ -23,7 +23,7 @@ function render(
   }
 
   Wrapper.propTypes = {
-    children: PropTypes.node,
+    children: PropTypes.node.isRequired,
   };
 
   return rtlRender(ui, { wrapper: Wrapper, ...renderOptions });

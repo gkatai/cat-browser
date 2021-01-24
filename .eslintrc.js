@@ -15,7 +15,11 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react"],
-  rules: {},
+  rules: {
+    "react/prop-types": ["error"],
+    "react/require-default-props": ["error"],
+    "react/default-props-match-prop-types": ["error"],
+  },
   settings: {
     react: {
       version: "detect",

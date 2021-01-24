@@ -9,7 +9,7 @@ describe("Grid reducer", () => {
         getImagesMetadata.pending
       );
 
-      expect(newState).toEqual({ status: loadingStates.loading });
+      expect(newState.status).toEqual(loadingStates.loading);
     });
 
     it("should be in loaded state when getImagesMetadata is fulfilled", () => {
@@ -18,7 +18,7 @@ describe("Grid reducer", () => {
         getImagesMetadata.fulfilled
       );
 
-      expect(newState).toEqual({ status: loadingStates.loaded });
+      expect(newState.status).toEqual(loadingStates.loaded);
     });
 
     it("should be in failed state when getImagesMetadata is rejected", () => {
@@ -27,7 +27,7 @@ describe("Grid reducer", () => {
         getImagesMetadata.rejected
       );
 
-      expect(newState).toEqual({ status: loadingStates.failed });
+      expect(newState.status).toEqual(loadingStates.failed);
     });
   });
 });

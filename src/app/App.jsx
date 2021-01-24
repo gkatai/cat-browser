@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <Counter />
-      <Grid />
+      <Grid count={10} />
     </>
   );
 };
